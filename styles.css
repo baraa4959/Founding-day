@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Harir;
+    src: url("fonts/Harir_complete_OTF_Harir.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Harir;
+    font-weight: bold;
+    src: url("fonts/Harir_complete_OTF_Harir_Bold.otf") format("opentype");
+}
+
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 15px;
+    padding: 0;
+	text-align: center;
+	font-family: Harir;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+body {
+    direction: rtl; /* Right-to-left text direction for Arabic */
+    background-color: #d8c2ac;
+    color: #333;
+}
+
+header {
+    background-color: #6B4E45;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+	border-radius: 10px;
+}
+
+header h1 {
+	font-size: xx-large;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+	font-size: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F4EADA;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	color: #231f20;
+}
+
+footer {
+    background-color: #6B4E45;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+	border-radius: 10px;
+}
+
+
+input, textarea {
+	margin-top: -1px;
+	background-color: white;
+	border: none;
+	border-radius: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+button {
+	background-color: #6B4E45;
+	border: none;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+section>a {
+	text-align: center;
+	font-family: Harir;
+    font-weight: normal;
+	color: #6B4E45;
+	font-size: large;
+	cursor: pointer;
+}
+
+#message {
+	margin-bottom: 0px;
+}
+
+.active {
+	color: #d8c2ac;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ytp-chrome-top-buttons {
+	display: none;
+}
+
+iframe, img {
+	border-radius: 15px;
+}
